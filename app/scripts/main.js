@@ -134,7 +134,7 @@ function post(){
         success: function(data) {
                 console.log(data);
                 posting = false;
-                alert("Survey code is: 55555");
+                alert('Survey code is: 55555');
                 
         }
       });

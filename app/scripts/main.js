@@ -126,7 +126,7 @@ function post(){
    if(posting == false) {
      posting = true;
       $.ajax({
-        url: 'https://dmaiaudio.herokuapp.com/api/kb8',
+        url: 'https://dmaiaudio.herokuapp.com/api/laugh',
         type: 'POST',
         data:formData,
         processData: false,
@@ -135,7 +135,7 @@ function post(){
                 console.log(data);
                 posting = false;
                 alert('Survey code is: 55555');
-                
+
         }
       });
    }

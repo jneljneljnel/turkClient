@@ -100,7 +100,7 @@ function post(){
    formData.append('fileId', randomFile);
    console.log("POST", blob[0], blob[0].size);
   $.ajax({
-    url: 'http://localhost:3300/api/kb8',
+    url: 'http://localhost:3300/api/dmailaugh',
     type: "POST",
     data:formData,
     processData: false,

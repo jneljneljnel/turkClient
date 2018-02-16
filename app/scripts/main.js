@@ -126,7 +126,7 @@ function post(){
    if(posting == false) {
      posting = true;
       $.ajax({
-        url: 'https://dmaiaudio.herokuapp.com/api/laugh',
+        url: 'https://dmaiaudio.herokuapp.com/api/dmailaugh',
         type: 'POST',
         data:formData,
         processData: false,
